@@ -1,0 +1,124 @@
+{
+  "Header": {
+    "title": "AIIS",
+    "paragraph": "The Premier AI Club at University of Minnesota Twin-Cities"
+  },
+  "About": {
+    "paragraph": "Founded in 2023, the University of Minnesota's Artificial Intelligence Innovators Society immerses members in AI applications within the workforce and industry. Keynote speakers, project-based work, various competitions, and corporate sponsorships, we connect members with firsthand experiences, mentors, and the technical immersion of AI across multiple industries. Our approach covers human desirability, business viability, and technical feasibility, including hands-on coding, effective customer engagement, and strategic tech stack implementation. Members gain confidence, teamwork skills, and experience in empathy-driven design and prototyping. We prioritize our members by fostering a fun, positive, and enriching environment that enhances learning and provides valuable experiences. Our focus is on building networks and developing nontraditional skills to help members stand out in the job market. Interested in building a connection with us as a member or sponsor? Email us at aiis@umn.edu",
+    "mission": "Empower AI enthusiasts with the technical expertise, leadership skills, and business insights to solve real-world problems and drive innovation!"
+    
+  },
+  "Gallery": [
+    {
+      "title": "View Details",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "View Details",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "View Details",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "img": "img/team/coming-soon.jpg",
+      "header": "Project Meeting",
+      "date_time": "Date: 9/19/2024 @ 5:00 PM"
+    },
+    {
+      "img": "img/team/coming-soon.jpg",
+      "header": "Project Meeting",
+      "date_time": "Date: 9/26/2024 @ 5:00 PM"
+    },
+    {
+      "img": "img/team/coming-soon.jpg",
+      "header": "Workshop 1: NumPy and Pandas",
+      "date_time": "Time: TBD"
+    }
+    
+    
+  ],
+
+
+  "Team": [
+    {
+      "img": "img/darsh.jpg",
+      "name": "Darsh Garg",
+      "job": "President/Founder"
+    },
+    {
+      "img": "img/team/danny.jpg",
+      "name": "Danny Kaddoura",
+      "job": "Vice President "
+    },
+    {
+      "img": "img/srithan.jpg",
+      "name": "Srithan Seetnesamy ",
+      "job": "Head of Operations "
+    },
+    {
+      "img": "img/team/sash.jpg",
+      "name": "Parees Pradhan",
+      "job": "Head of Technology"
+    },
+  {
+      "img": "img/team/sash.jpg",
+      "name": "Sash Anand",
+      "job": "Head of Finance "
+    },
+    {
+      "img": "img/rohan.jpg",
+      "name": "Rohan M. Dham",
+      "job": "Project Manager"
+    },
+    {
+      "img": "img/david.jpg",
+      "name": "David Nguyen",
+      "job": "Advisor "
+    },
+    {
+      "img": "img/nav.jpg",
+      "name": "Nav Nagrecha",
+      "job": "Marketing Specialist "
+    }
+    
+
+    
+  ],
+  "Contact": {
+    "address": " ",
+    "phone": "",
+    "email": "aiis@umn.edu",
+    "instagram": "https://www.instagram.com/ais_umn/",
+    "linkedIn": "https://www.linkedin.com/company/umn-ai-innovators-society/"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Projects",
+      "text": "Members will collaborate on innovative AI projects that tackle real-world problems. These projects provide hands-on experience with key technologies. Whether you're building your portfolio or exploring new AI applications, our projects are the perfect way to put your skills into action. "
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Events",
+      "text": "We will host exciting events like hackathons and entrepreneurial competitions that push innovation to the next level! We want to give hands-on experience, bridging the gap between theoretical learning and real-world problem-solving. "
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Workshops",
+      "text": "AIIS  offers educational workshops designed to build essential technical skills in artificial intelligence. We don't expect anyone to walk in as an expert, with these workshops catering to all skill levels. "
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Field Trips",
+      "text": "A new, exciting event we plan to do is taking learning beyond solely club meetings with exciting field trips! We plan to use real-world data, collaborate on innovative projects, and gain hands-on experience that prepares you for AI application. This practical exposure and creativity can boost your skills in a fun, dynamic way!"
+    }
+   
+  ]
+}
