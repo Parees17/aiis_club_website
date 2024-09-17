@@ -1,32 +1,14 @@
 import React, { useState, useEffect } from "react";
-// import { Navigation } from "./components/navigation.jsx";
-// import { Header } from "./components/header";
-// import { Features } from "./components/features";
-// import { About } from "./components/about";
 import { Services } from "./components/services";
 
 import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
-// import {Faqs} from './components/Faqs'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import JsonData from "./data/data.json";
-// import SmoothScroll from "smooth-scroll";
 import "./App.css";
-import CreateUserModal from "./components/createUserModal";
-import Chatbot from "./components/chatbot";
 import { People } from "./components/people";
 
-// export const BASE_URL = import.meta.env.MODE === "development" ? "http://127.0.0.1:5000/api" : "/api";
 
-export const BASE_URL = process.env.NODE_ENV === "development" 
-    ? "http://127.0.0.1:5000/api" 
-    : "/api";
-
-
-// export const scroll = new SmoothScroll('a[href*="#"]', {
-//     speed: 1000,
-//     speedAsDuration: true,
-//   });
   
   const App = () => 
   
@@ -80,7 +62,6 @@ export const BASE_URL = process.env.NODE_ENV === "development"
           <Route path="/home" exact element={<Contact />} />
           <Route path="/events" exact element={<Services data ={landingPageData.Services} />} />
           <Route path="/team" exact element={<Team data ={landingPageData.Team} />} />
-          <Route path="/join" element={<CreateUserModal />} />
           <Route path="/people" element={<People />} />
           {/* <Route path="/chatbot" element={<Chatbot />} /> */}
           {/* <Route path="/contact" exact element={<Contact />} /> */}
