@@ -2,7 +2,6 @@
 import React, { useState } from 'react';
 import { Modal, Button, Form } from 'react-bootstrap';
 import { BiAddToQueue } from 'react-icons/bi';
-import { BASE_URL } from '../App';
 import './createUserModal.css'; // Custom CSS file
 
 const CreateUserModal = ({setUsers}) => {
@@ -22,7 +21,7 @@ const CreateUserModal = ({setUsers}) => {
     e.preventDefault();
     setIsLoading(true);
     try {
-      const res = await fetch(BASE_URL + '/members', {
+      const res = await fetch( '/members', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
