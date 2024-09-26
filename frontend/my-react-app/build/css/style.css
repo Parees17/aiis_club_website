@@ -744,6 +744,11 @@ label {
   border-bottom: 2px solid #608dfd;
 }
 
+#member-img{
+  margin-bottom: 20px;
+}
+
+
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;

@@ -7,9 +7,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import JsonData from "./data/data.json";
 import "./App.css";
 import { People } from "./components/people";
+import { Chatbot } from "./components/chatbot";  
 
-
-  
   const App = () => 
   
   {
@@ -63,7 +62,7 @@ import { People } from "./components/people";
           <Route path="/events" exact element={<Services data ={landingPageData.Services} />} />
           <Route path="/team" exact element={<Team data ={landingPageData.Team} />} />
           <Route path="/people" element={<People />} />
-          {/* <Route path="/chatbot" element={<Chatbot />} /> */}
+          <Route path="/chatbot" element={<Chatbot />} />
           {/* <Route path="/contact" exact element={<Contact />} /> */}
         </Routes>
       </Router>

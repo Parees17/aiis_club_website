@@ -1,10 +1,9 @@
+// export default Chatbot;
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./chatbot.css"; // We will create a custom CSS file to style the chat messages.
-import { BASE_URL } from "../App";
 
-
-const Chatbot = () => {
+export const Chatbot = () => {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
 
@@ -53,7 +52,7 @@ const Chatbot = () => {
   return (
     <div className="chat-container">
       <div className="chat-header">
-        <img src="../img/AIClubLogoOrthoRenderV11.png" alt="Avatar" className="avatar" />
+        <img src="/img/AIClubLogoOrthoRenderV11.png" alt="Avatar" className="avatar" />
         <span className="status-online">Online</span>
       </div>
 
@@ -77,4 +76,3 @@ const Chatbot = () => {
   );
 };
 
-export default Chatbot;
