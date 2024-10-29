@@ -28,18 +28,18 @@
   "Services": [
     {
       "img": "img/team/coming-soon.jpg",
-      "header": "Project Meeting",
-      "date_time": "Date: 9/19/2024 @ 5:00 PM"
+      "header": "Technical Workshop: Generative AI",
+      "date_time": "10/24/2024 @ 4:30 PM"
     },
     {
       "img": "img/team/coming-soon.jpg",
-      "header": "Project Meeting",
-      "date_time": "Date: 9/26/2024 @ 5:00 PM"
+      "header": "General Meeting",
+      "date_time": "Date: 10/31/2024 @ 4:30 PM"
     },
     {
       "img": "img/team/coming-soon.jpg",
-      "header": "Workshop 1: NumPy and Pandas",
-      "date_time": "Time: TBD"
+      "header": "Technical Workshop: TBD",
+      "date_time": "Date: 11/06/2024 @ 4:30 PM"
     }
     
     
@@ -48,24 +48,24 @@
 
   "Team": [
     {
-      "img": "img/darsh.jpg",
+      "img": "img/darsh.JPG",
       "name": "Darsh Garg",
       "job": "President/Founder"
     },
     {
       "img": "img/team/danny.jpg",
       "name": "Danny Kaddoura",
-      "job": "Vice President "
+      "job": "Internal Vice President "
     },
     {
-      "img": "img/srithan.jpg",
+      "img": "img/team/prof-pic.jpg",
       "name": "Srithan Seetnesamy ",
       "job": "Head of Operations "
     },
     {
-      "img": "img/team/sash.jpg",
+      "img": "img/parees-improv.JPG",
       "name": "Parees Pradhan",
-      "job": "Head of Technology"
+      "job": "External Vice President"
     },
   {
       "img": "img/team/sash.jpg",
@@ -75,17 +75,33 @@
     {
       "img": "img/rohan.jpg",
       "name": "Rohan M. Dham",
-      "job": "Project Manager"
+      "job": "Head of Technology"
+    },
+  
+    {
+      "img": "img/team/prof-pic.jpg",
+      "name": "Andrew Lin",
+      "job": "Head of Marketing"
     },
     {
-      "img": "img/david.jpg",
-      "name": "David Nguyen",
-      "job": "Advisor "
+      "img": "img/team/prof-pic.jpg",
+      "name": "Sungmin Baik",
+      "job": "Head of Engineering"
     },
     {
-      "img": "img/nav.jpg",
-      "name": "Nav Nagrecha",
-      "job": "Marketing Specialist "
+      "img": "img/team/prof-pic.jpg",
+      "name": "John Ichinki-Kotaro Welches",
+      "job": "Head of Engineering"
+    },
+    {
+      "img": "img/team/prof-pic.jpg",
+      "name": "Sara Noordin",
+      "job": "Head of Social Media"
+    },
+    {
+      "img": "img/team/prof-pic.jpg",
+      "name": "Aarav Paul",
+      "job": "Head of AI"
     }
     
 

@@ -20,7 +20,7 @@ const Partner = () => {
       </div>
       <div className="row">
               <div >
-                  <img src = "../img/neural.jpg" alt="..." className="col-xs-2 col-xs-2 " class="center-block" />
+                  <img src = "img/neural.jpg" alt="..." className="col-xs-2 col-xs-2 " class="center-block" />
               </div>
       
 

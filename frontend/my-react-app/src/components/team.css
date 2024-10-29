@@ -1,0 +1,115 @@
+/* Fade-in animation */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 4s forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  /* Slide-in-left animation */
+  .slide-in-left {
+    transform: translateX(-100%);
+    animation: slideInLeft 0.5s forwards;
+  }
+  
+  @keyframes slideInLeft {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(0); }
+  }
+
+  .bounce {
+    animation: bounce 4s infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+
+  .zoom-in {
+    transform: scale(0.5);
+    animation: zoomIn 1s forwards;
+  }
+  
+  @keyframes zoomIn {
+    0% { transform: scale(0.5); }
+    100% { transform: scale(1); }
+  }
+
+  .glitch {
+    position: relative;
+    animation: glitch 1s infinite;
+  }
+  
+  @keyframes glitch {
+    0% { transform: translate(0); }
+    10% { transform: translate(-2px, 2px); }
+    20% { transform: translate(2px, -2px); }
+    30% { transform: translate(-2px, 2px); }
+    100% { transform: translate(0); }
+  }
+
+  .blur-in {
+    filter: blur(10px);
+    animation: blurIn 1s forwards;
+  }
+  
+  @keyframes blurIn {
+    0% { filter: blur(10px); }
+    100% { filter: blur(0); }
+  }
+
+  .expand {
+    transform: scale(0);
+    animation: expand 0.7s forwards;
+  }
+  
+  @keyframes expand {
+    0% { transform: scale(0); }
+    100% { transform: scale(1); }
+  }
+
+  .zoom-out {
+    transform: scale(1.5);
+    animation: zoomOut 1s forwards;
+  }
+  
+  @keyframes zoomOut {
+    0% { transform: scale(1.5); }
+    100% { transform: scale(1); }
+  }
+
+
+  .slide-up {
+    transform: translateY(100%);
+    animation: slideUp 0.7s forwards;
+  }
+  
+  @keyframes slideUp {
+    0% { transform: translateY(100%); }
+    100% { transform: translateY(0); }
+  }
+
+  .rotate-in {
+    transform: rotate(-200deg);
+    animation: rotateIn 1s forwards;
+  }
+  
+  @keyframes rotateIn {
+    0% { transform: rotate(-200deg); }
+    100% { transform: rotate(0); }
+  }
+
+  .flip-in {
+    transform: rotateY(90deg);
+    animation: flipIn 1s forwards;
+  }
+  
+  @keyframes flipIn {
+    0% { transform: rotateY(90deg); }
+    100% { transform: rotateY(0); }
+  }
+  

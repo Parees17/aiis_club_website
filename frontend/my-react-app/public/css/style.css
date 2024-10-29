@@ -592,7 +592,10 @@ header .intro-text {
   margin: 5px 0;
 }
 #team .team-img {
-  width: 240px;
+  width: 2000px;  /* Set a fixed width */
+  height: 240px; /* Set a fixed height */
+  object-fit: cover; /* Crop the image if necessary */
+  margin: 10px; /* Add some space between images */
 }
 #team .thumbnail {
   background: transparent;
@@ -745,8 +748,11 @@ label {
 }
 
 #member-img{
-  margin-bottom: 20px;
-}
+  
+  width: 150px;  /* Set a fixed width */
+  height: 200px; /* Set a fixed height */
+  object-fit: cover; 
+  margin-bottom: 20px;}
 
 
 @media (max-width: 768px) {

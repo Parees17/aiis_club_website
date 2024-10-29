@@ -1,5 +1,6 @@
 import React from "react";
 // import { Open_house } from "./Event_Details/open_house";
+import "./services.css"
 import { Navigation } from "./navigation";
 
 export const Services = (props) => {
@@ -10,8 +11,8 @@ export const Services = (props) => {
       <Navigation />
       <div className="container">
         <div className="section-title">
-          <h2>Upcoming Events</h2>
-          <p>
+          <h2 className="zoom-in" >Upcoming Events</h2>
+          <p className="zoom-out">
             Take note of our upcoming events!
           </p>
         </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import "./team.css"
 import { Navigation } from "./navigation";
 export const Team = (props) => {
   return (
@@ -6,7 +7,7 @@ export const Team = (props) => {
       <Navigation />
       <div className="container">
         <div className="col-md-8 col-md-offset-2 section-title">
-          <h2>Meet the Team</h2>
+          <h2 className="fade-in" >Meet the Team</h2>
         
         </div>
         <div id="row">
